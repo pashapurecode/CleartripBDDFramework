@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Book Air Ticket Suite]" parallel="tests">
+  <test thread-count="2" verbose="0" name="Safari(failed)" parallel="tests">
+    <classes>
+      <class name="Runners.SafariRunner">
+        <methods>
+          <include name="runScenario" invocation-numbers="0"/>
+          <include name="tearDownClass"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- Runners.SafariRunner -->
+    </classes>
+  </test> <!-- Safari(failed) -->
+</suite> <!-- Failed suite [Book Air Ticket Suite] -->

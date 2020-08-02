@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Book Air Ticket Suite" parallel="tests"
+	thread-count="2">
+
+	<test name="Safari">
+		<classes>
+			<class name="Runners.SafariRunner" />
+		</classes>
+	</test>
+	
+	<test name="Chrome">
+		<classes>
+			<class name="Runners.ChromeRunner" />
+		</classes>
+	</test>
+
+</suite>
