@@ -4,13 +4,13 @@
 
 	<test name="Safari">
 		<classes>
-			<class name="Runners.SafariRunner" />
+			<class name="test.java.Runners.SafariRunner" />
 		</classes>
 	</test>
 	
 	<test name="Chrome">
 		<classes>
-			<class name="Runners.ChromeRunner" />
+			<class name="test.java.Runners.ChromeRunner" />
 		</classes>
 	</test>
 
